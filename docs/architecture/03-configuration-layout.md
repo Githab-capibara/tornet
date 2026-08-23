@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-21
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [adr/05-dual-installer.md](../adr/05-dual-installer.md), [usage/04-configuration.md](../usage/04-configuration.md)
 
 ## Context

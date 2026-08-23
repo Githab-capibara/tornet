@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-21
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [mechanisms/01-ip-rotation.md](../mechanisms/01-ip-rotation.md), [adr/02-newnym-via-control-port.md](../adr/02-newnym-via-control-port.md)
 
 ## Context

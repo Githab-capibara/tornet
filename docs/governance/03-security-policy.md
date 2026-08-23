@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-23
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [governance/01-contributing.md](01-contributing.md)
 
 ## Context

@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-23
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [usage/03-country-selection.md](../usage/03-country-selection.md)
 
 ## Context

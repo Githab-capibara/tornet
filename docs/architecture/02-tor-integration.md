@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-21
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [adr/02-newnym-via-control-port.md](../adr/02-newnym-via-control-port.md), [mechanisms/02-country-exit-nodes.md](../mechanisms/02-country-exit-nodes.md)
 
 ## Context

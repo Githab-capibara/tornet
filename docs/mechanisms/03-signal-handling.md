@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-23
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [adr/06-signal-cleanup.md](../adr/06-signal-cleanup.md)
 
 ## Context

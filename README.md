@@ -6,6 +6,11 @@
 ![Python](https://img.shields.io/badge/Python-3.6%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20EXE%20%7C%20Linux%20%7C%20Android%20APP-blue)
+![GitHub stars](https://img.shields.io/github/stars/ByteBreach/tornet?style=social)
+![Discord](https://img.shields.io/discord/000000000?label=Discord)
+![Website](https://img.shields.io/badge/Website-tornet.io-blue)
+
+![Hero](https://via.placeholder.com/800x200.png?text=TorNet+Hero)
 
 **Automate IP address changes using the Tor network with advanced privacy features**
 

@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-23
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [adr/07-cross-distro-checker.md](../adr/07-cross-distro-checker.md)
 
 ## Context

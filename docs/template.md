@@ -2,7 +2,7 @@
 
 - **Status:** Draft | Published
 - **Date:** YYYY-MM-DD
-- **Authors:** GitHub handles
+- **Deciders:** GitHub handles
 - **Related:** links to issues, PRs, or other docs
 
 ## Context

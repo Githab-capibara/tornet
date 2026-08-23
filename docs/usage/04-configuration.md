@@ -2,7 +2,7 @@
 
 - **Status:** Published
 - **Date:** 2026-08-23
-- **Authors:** @ByteBreach
+- **Deciders:** @ByteBreach
 - **Related:** [architecture/03-configuration-layout.md](../architecture/03-configuration-layout.md)
 
 ## Context
