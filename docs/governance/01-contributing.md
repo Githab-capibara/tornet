@@ -1,83 +1,25 @@
 # 01. Contributing
 
+- **Status:** Published
+- **Date:** 2026-08-23
+- **Deciders:** @ByteBreach
+- **Related:** [governance/02-code-of-conduct.md](02-code-of-conduct.md), [governance/03-security-policy.md](03-security-policy.md)
 
-Thank you for your interest in **TorNet**.
+## Context
 
-TorNet is an **open-source project**, and **anyone is free to edit, modify, share, and improve it**.
+TorNet is an open-source project intended to be usable across Android, Windows, Linux and macOS. Cross-platform support, compatibility and stability require ongoing community input. The project needs a clear, permissive contribution process to lower friction for fixes, features and documentation improvements.
 
----
+## Decision
 
-## Main Goal
+Allow anyone to fork, edit, modify, fix bugs, improve performance and security, add features, improve or translate documentation, share and redistribute the project, and submit pull requests without prior permission. Contributions are governed by the MIT License and this contributing guide.
 
-The main goal of TorNet is to be **usable on all systems**:
+## Consequences
 
-- Android
-- Windows
-- Linux
-- macOS
+- **Easier:** anyone can participate immediately; contributions to docs and code are explicitly encouraged.
+- **Harder:** maintainer triage volume increases; quality must be enforced via CI and reviews.
+- **Given up:** gated, permission-based contribution model.
 
-Contributions that improve **cross-platform support**, compatibility, and stability are highly encouraged.
+## Alternatives considered
 
----
-
-## Open Contribution Policy
-
-You are free to:
-
-- Fork the repository
-- Edit and modify the code
-- Fix bugs and issues
-- Improve performance and security
-- Add new features
-- Improve or translate documentation
-- Share and redistribute the project
-- Submit pull requests
-
-No permission is required — just contribute responsibly.
-
----
-
-## How to Contribute
-
-1. Fork the repository
-2. Make your changes
-3. Test your changes
-4. Commit and open a pull request
-
-Clear and simple contributions are welcome.
-
----
-
-## 🐞 Issues & Features
-
-- Found a bug? Open an issue.
-- Have an idea? Open an issue.
-- Want to fix something? Open a pull request.
-
-All issues, fixes, and ideas are welcome.
-
----
-
-## Documentation
-
-You can contribute without writing code:
-
-- Fix typos
-- Improve explanations
-- Add examples
-
-Documentation contributions matter.
-
----
-
-## License
-
-By contributing, you agree that your work will be released under the **MIT License**.
-
----
-
-## ❤️ Thank You
-
-Every contribution helps.
-
-Thank you for making **TorNet** better for everyone.
+- **Option A: require maintainer approval before forking.** Rejected because it adds friction and conflicts with open-source principles.
+- **Option B: CLA requirement.** Rejected because MIT License contributions are sufficient and CLA adds administrative overhead.

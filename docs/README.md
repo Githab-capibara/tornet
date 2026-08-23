@@ -13,6 +13,7 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 | [IP Rotation](mechanisms/01-ip-rotation.md) | How TorNet rotates your IP |
 | [Architecture Overview](architecture/01-system-overview.md) | System structure and data flow |
 | [Contributing](governance/01-contributing.md) | How to contribute |
+| [ADR Index](adr/README.md) | Architecture decisions index |
 
 ## Directory map
 
@@ -30,7 +31,7 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 - **Contributors** → [Contributing](governance/01-contributing.md) → [Architecture Overview](architecture/01-system-overview.md)
 - **Maintainers** → [ADR Index](adr/README.md) → [Dual Installer ADR](adr/05-dual-installer.md)
 - **Security review** → [Mechanisms README](mechanisms/README.md) → [Kill Switch](mechanisms/02-kill-switch.md)
-- **Engagement workflow** → [Usage README](usage/README.md)
+- **Architecture** → [Architecture README](architecture/README.md) → [System Overview](architecture/01-system-overview.md)
 
 ## Governance
 
@@ -38,3 +39,15 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 - [Code of Conduct](governance/02-code-of-conduct.md)
 - [Security Policy](governance/03-security-policy.md)
 - [License MIT](../LICENSE)
+
+## ADR Index
+
+| # | Title | Status |
+|---|-------|--------|
+| 01 | Record architecture decisions | Accepted |
+| 02 | Rotate IPs via the Tor control port instead of restarting the service | Accepted |
+| 03 | Implement the kill switch as an iptables chain named TORNET-KILLSWITCH | Accepted |
+| 04 | Install missing dependencies at runtime behind an explicit `--auto-fix` flag | Accepted |
+| 05 | Ship both `setup.py` and `pyproject.toml` as install sources | Accepted |
+| 06 | Stop Tor and tornet processes on SIGINT/SIGQUIT before exiting | Accepted |
+| 07 | Keep a standalone cross-distribution dependency checker in `utils.py` | Accepted |

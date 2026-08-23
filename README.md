@@ -1,4 +1,5 @@
 # TorNet v2.0.2
+![Hero](https://placehold.co/1200x400?text=TorNet+Privacy+CLI)
 
 <div align="center">
 
