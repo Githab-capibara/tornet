@@ -10,8 +10,6 @@
 ![Discord](https://img.shields.io/discord/000000000?label=Discord)
 ![Website](https://img.shields.io/badge/Website-tornet.io-blue)
 
-![Hero](https://via.placeholder.com/800x200.png?text=TorNet+Hero)
-
 **Automate IP address changes using the Tor network with advanced privacy features**
 
 TorNet is a privacy-focused tool that automates IP address rotation using Tor.  
