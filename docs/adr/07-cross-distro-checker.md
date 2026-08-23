@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
-- **Related:** [mechanisms/09-auto-fix.md](../mechanisms/09-auto-fix.md), [adr/04-runtime-auto-fix.md](04-runtime-auto-fix.md)
+- **Related:** [mechanisms/04-auto-fix.md](../mechanisms/04-auto-fix.md), [mechanisms/05-dependency-checker.md](../mechanisms/05-dependency-checker.md), [adr/04-runtime-auto-fix.md](04-runtime-auto-fix.md)
 
 ## Context
 

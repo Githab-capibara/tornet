@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
-- **Related:** [mechanisms/09-auto-fix.md](../mechanisms/09-auto-fix.md), [adr/07-cross-distro-checker.md](07-cross-distro-checker.md)
+- **Related:** [mechanisms/04-auto-fix.md](../mechanisms/04-auto-fix.md), [adr/07-cross-distro-checker.md](07-cross-distro-checker.md)
 
 ## Context
 

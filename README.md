@@ -48,6 +48,7 @@ No permission is required — contributions from **anyone** are welcome.
 - [Country Selection](#country-selection)
 - [Roadmap](#roadmap)
 - [Troubleshooting](#troubleshooting)
+- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -419,6 +420,25 @@ MIT License - see LICENSE file.
     <td><a href="https://github.com/GH05T-HUNTER5"><img src="https://avatars.githubusercontent.com/u/108191615?s=100" /><br /><sub><b>GH05T-HUNTER5</b></sub></a></td>
   </tr>
 </table>
+
+---
+
+## Documentation
+
+| Guide | Link |
+|-------|------|
+| [Docs Home](docs/README.md) | Full documentation index |
+| [Getting Started](docs/usage/01-getting-started.md) | First run in 5 min |
+| [Architecture](docs/architecture/01-system-overview.md) | System overview |
+| [ADRs](docs/adr/README.md) | Architecture decisions |
+
+**Benchmarks**
+
+![Benchmark donut](docs/architecture/benchmark.svg)
+
+**Architecture**
+
+![Architecture](docs/architecture/overview.svg)
 
 ---
 

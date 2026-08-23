@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
-- **Related:** [mechanisms/03-kill-switch.md](../mechanisms/03-kill-switch.md)
+- **Related:** [mechanisms/02-kill-switch.md](../mechanisms/02-kill-switch.md)
 
 ## Context
 
