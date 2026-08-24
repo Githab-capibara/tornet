@@ -5,8 +5,8 @@ this tool" — from first install to troubleshooting.
 
 ## Contents
 
-| Document | Purpose |
-|----------|---------|
+| Guide | Purpose |
+|-------|---------|
 | [01-getting-started.md](01-getting-started.md) | Install and run your first IP change in ~5 minutes |
 | [02-command-reference.md](02-command-reference.md) | Every CLI flag, grouped basic vs advanced |
 | [03-country-selection.md](03-country-selection.md) | Exit-country codes and how pinning works |

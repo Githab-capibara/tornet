@@ -4,8 +4,8 @@ This directory contains **deep dives** into TorNet runtime mechanisms — how ea
 
 ## Contents
 
-| Document | Purpose |
-|----------|---------|
+| Guide | Purpose |
+|-------|---------|
 | [01-ip-rotation.md](01-ip-rotation.md) | Tor control port IP rotation mechanism |
 | [02-kill-switch.md](02-kill-switch.md) | iptables kill switch implementation |
 | [03-signal-handling.md](03-signal-handling.md) | Process cleanup on signals |

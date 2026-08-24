@@ -7,8 +7,8 @@ and [`adr/`](../adr/) ("why the decisions were made").
 
 ## Contents
 
-| Document | Purpose |
-|----------|---------|
+| Guide | Purpose |
+|-------|---------|
 | [01-system-overview.md](01-system-overview.md) | Components, data flow, and the rotation loop |
 | [02-tor-integration.md](02-tor-integration.md) | SOCKS proxy, control port, and country exit nodes |
 | [03-configuration-layout.md](03-configuration-layout.md) | `~/.tornet/` layout, config files, and the dual installer |

@@ -51,19 +51,6 @@ Use [`template.md`](template.md) as the starting point.
   one; do not edit the old one except to flip its `Status` to
   `Superseded by ADR-NN`.
 
-## Contents
-
-| Document | Purpose |
-|----------|---------|
-| [01-record-architecture-decisions.md](01-record-architecture-decisions.md) | Record architecture decisions |
-| [02-newnym-via-control-port.md](02-newnym-via-control-port.md) | Rotate IPs via Tor control port |
-| [03-kill-switch-iptables.md](03-kill-switch-iptables.md) | Implement kill switch as iptables chain |
-| [04-runtime-auto-fix.md](04-runtime-auto-fix.md) | Install dependencies at runtime |
-| [05-dual-installer.md](05-dual-installer.md) | Ship both setup.py and pyproject.toml |
-| [06-signal-cleanup.md](06-signal-cleanup.md) | Stop processes on signals |
-| [07-cross-distro-checker.md](07-cross-distro-checker.md) | Cross-distribution dependency checker |
-
-
 ## Index
 
 | # | Title | Status |
