@@ -1,4 +1,4 @@
-# 04. Document project principles
+# 04. Project principles
 
 - **Status:** Published
 - **Date:** 2026-08-24

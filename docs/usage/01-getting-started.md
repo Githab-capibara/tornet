@@ -1,4 +1,4 @@
-# 01. Getting Started
+# 01. Getting started
 
 - **Status:** Published
 - **Date:** 2026-08-23

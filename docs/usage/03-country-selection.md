@@ -1,4 +1,4 @@
-# 03. Country Selection
+# 03. Country selection
 
 - **Status:** Published
 - **Date:** 2026-08-23
@@ -28,4 +28,4 @@ Tor configuration is written to `~/.tornet/torrc.custom` with `ExitNodes {CC} St
 
 ## References
 
-- [Tor Integration](architecture/02-tor-integration.md)
+- [Tor integration](../architecture/02-tor-integration.md)

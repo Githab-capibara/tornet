@@ -1,4 +1,4 @@
-# 02. Code of Conduct
+# 02. Code of conduct
 
 - **Status:** Published
 - **Date:** 2026-08-23

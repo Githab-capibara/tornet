@@ -30,4 +30,4 @@ Load with `--config custom.yml`.
 
 ## References
 
-- [Configuration Layout](architecture/03-configuration-layout.md)
+- [Configuration layout](../architecture/03-configuration-layout.md)

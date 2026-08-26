@@ -3,7 +3,7 @@
 - **Status:** Published
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
-- **Related:** [adr/02-newnym-via-control-port.md](../adr/02-newnym-via-control-port.md), [mechanisms/02-country-exit-nodes.md](../mechanisms/02-country-exit-nodes.md)
+- **Related:** [adr/02-newnym-via-control-port.md](../adr/02-newnym-via-control-port.md), [mechanisms/02-country-exit-nodes.md](../mechanisms/06-country-exitnodes.md)
 
 ## Context
 
@@ -64,7 +64,7 @@ then restarts Tor with that torrc (`tor -f ~/.tornet/torrc.custom --RunAsDaemon 
 and records the choice in `~/.tornet/current_country`. `StrictNodes 1` forces
 Tor to use only the listed exit countries; without it, Tor may ignore the
 constraint when it cannot satisfy it. See
-[country exit nodes mechanism](../mechanisms/02-country-exit-nodes.md).
+[country exit nodes mechanism](../mechanisms/06-country-exitnodes.md).
 
 ## Service management
 

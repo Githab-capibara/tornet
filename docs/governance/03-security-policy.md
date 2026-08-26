@@ -1,4 +1,4 @@
-# 03. Security Policy
+# 03. Security policy
 
 - **Status:** Published
 - **Date:** 2026-08-23
