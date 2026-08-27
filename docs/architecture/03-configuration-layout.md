@@ -83,11 +83,9 @@ tornet/
 │   └── tor.exe          # Windows Tor binary shipped in-package
 ├── docs/                # this documentation tree
 ├── README.md            # project homepage (GitHub-native)
-├── CONTRIBUTING.md      # → moved into docs/governance/
 ├── LICENSE              # MIT
 ├── pyproject.toml       # primary packaging
-├── setup.py             # legacy packaging
-└── .readthedocs.yaml    # (removed under GitHub-native docs approach)
+└── setup.py             # legacy packaging
 ```
 
 ## Consequences

@@ -433,8 +433,13 @@ MIT License - see LICENSE file.
 |-------|------|
 | [Docs Home](docs/README.md) | Full documentation index |
 | [Getting Started](docs/usage/01-getting-started.md) | First run in 5 min |
-| [Architecture](docs/architecture/01-system-overview.md) | System overview |
-| [ADRs](docs/adr/README.md) | Architecture decisions |
+| [Command Reference](docs/usage/02-command-reference.md) | All CLI flags |
+| [Country Selection](docs/usage/03-country-selection.md) | Exit-country pinning |
+| [Configuration](docs/usage/04-configuration.md) | YAML/JSON config format |
+| [Troubleshooting](docs/usage/05-troubleshooting.md) | Exit codes and common fixes |
+| [Architecture Overview](docs/architecture/01-system-overview.md) | System structure |
+| [Mechanisms Index](docs/mechanisms/README.md) | 14 runtime deep dives |
+| [ADR Index](docs/adr/README.md) | Architecture decisions |
 
 **Benchmarks**
 

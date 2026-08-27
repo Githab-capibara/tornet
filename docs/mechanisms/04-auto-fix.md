@@ -42,7 +42,7 @@ install manually.
   `requests` → exit 11, both messages point at `--auto-fix`. This is the
   deliberate "explicit trigger only" policy from ADR-04.
 - A more thorough standalone variant of the same logic lives in
-  [utils.py](05-dependency-checker.md) and can bootstrap before TorNet is even
+  [mechanisms/05-dependency-checker.md](05-dependency-checker.md) and can bootstrap before TorNet is even
   installed.
 
 ## Testing
