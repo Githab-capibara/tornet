@@ -1,8 +1,9 @@
 # 04. Project principles
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-24
 - **Deciders:** @ByteBreach
+- **Related:** [governance/01-contributing.md](01-contributing.md)
 
 ## Context
 
@@ -17,6 +18,12 @@ Maintain a canonical list of project principles covering documentation updates, 
 - **Easier:** onboarding and compliance checks become explicit.
 - **Harder:** requires discipline to update principles when process changes.
 - **Given up:** implicit tribal knowledge.
+- **Migration:** none; this is the initial adoption.
+
+## Alternatives considered
+
+- **Option A: no formal principles.** Rejected because without explicit standards, documentation and testing quality drifts across contributors.
+- **Option B: lengthy process document.** Rejected because concise principles are more memorable and actionable.
 
 ## Principles
 

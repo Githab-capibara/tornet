@@ -1,25 +1,34 @@
 # NN. Title in present-tense imperative
 
-- **Status:** Draft | Published
+- **Status:** Proposed | Accepted | Deprecated | Superseded by ADR-NN
 - **Date:** YYYY-MM-DD
-- **Deciders:** GitHub handles
-- **Related:** links to issues, PRs, or other docs
+- **Deciders:** GitHub handles of people who agreed to the decision
+- **Related:** issue/PR/ADR links that this decision depends on or supersedes
 
 ## Context
 
-What forces are at play? Why does this document exist? Two or three short
-paragraphs. Link to background instead of restating it.
+What forces are at play? What makes this decision non-obvious? Two or three
+short paragraphs. Avoid restating background that is already in the linked
+docs — link instead.
 
-## Body
+## Decision
 
-The substance of the document. Section headings depend on the topic.
+What are we doing? Stated affirmatively, in the present tense. Keep this
+section short; the reasoning lives in Context, the trade-offs in
+Consequences.
 
 ## Consequences
 
-- What this document enables.
-- What it constrains.
-- What it leaves open.
+- **Easier:** what this decision unlocks.
+- **Harder:** what this decision constrains.
+- **Given up:** capabilities or flexibility we explicitly walk away from.
+- **Migration:** if applicable, what existing code/config has to change and on
+  what timeline.
 
-## References
+## Alternatives considered
 
-- [Link](https://example.com) — one-line description.
+- **Option A:** one-line description. Rejected because …
+- **Option B:** one-line description. Rejected because …
+
+(Do not list options you did not actually consider. This document is a record,
+not a literature survey.)

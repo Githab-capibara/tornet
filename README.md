@@ -1,5 +1,4 @@
 # TorNet v2.0.2
-<!-- TODO: replace with a real hero image/video hosted in-repo or on the project site. -->
 <div align="center">
 
 ![TorNet Banner](https://img.shields.io/badge/TorNet-2.0.2-blue)
@@ -7,10 +6,6 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20EXE%20%7C%20Linux%20%7C%20Android%20APP-blue)
 ![GitHub stars](https://img.shields.io/github/stars/ByteBreach/tornet?style=social)
-<!-- TODO: set the real Discord server ID in the shield URL, then uncomment.
-![Discord](https://img.shields.io/discord/REAL_SERVER_ID?label=Discord) -->
-<!-- TODO: confirm the real project website domain, then uncomment.
-![Website](https://img.shields.io/badge/Website-REAL.DOMAIN-blue) -->
 
 **Automate IP address changes using the Tor network with advanced privacy features**
 

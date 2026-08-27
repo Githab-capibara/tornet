@@ -1,6 +1,6 @@
 # 03. Security policy
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [governance/01-contributing.md](01-contributing.md)
@@ -9,35 +9,18 @@
 
 TorNet handles network traffic and requires root for kill switch. Security issues must be reported responsibly to prevent public exposure before fixes.
 
-## Body
+## Decision
 
-### Supported Versions
-
-Only the latest released version is actively supported for security updates.
-
-### Reporting a Vulnerability
-
-Please do NOT open a public issue. Email security disclosures to the maintainer via GitHub Security Advisories.
-
-Include:
-
-- Description of the vulnerability
-- Steps to reproduce
-- Potential impact
-- Suggested fix if known
-
-### Response Timeline
-
-- Acknowledgement within 48 hours
-- Initial assessment within 7 days
-- Fix release as soon as feasible
+Use GitHub Security Advisories for responsible disclosure, with a 48-hour acknowledgement window and private triage before public disclosure.
 
 ## Consequences
 
-- Easier: responsible disclosure process.
-- Harder: maintainer must triage privately.
-- Given up: public discussion of unpatched issues.
+- **Easier:** responsible disclosure process with clear timeline.
+- **Harder:** maintainer must triage privately and coordinate fixes.
+- **Given up:** public discussion of unpatched issues.
+- **Migration:** none; this is the initial policy.
 
-## References
+## Alternatives considered
 
-- [GitHub Security Advisories](https://docs.github.com/en/code-security)
+- **Option A: public issues for security bugs.** Rejected because it exposes vulnerabilities before fixes are available.
+- **Option B: email-only disclosure.** Rejected because GitHub Security Advisories provide better tooling and audit trail.

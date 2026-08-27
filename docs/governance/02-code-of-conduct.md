@@ -1,6 +1,6 @@
 # 02. Code of conduct
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [governance/01-contributing.md](01-contributing.md)
@@ -9,38 +9,18 @@
 
 TorNet is an open community project. Maintaining a respectful environment is essential for sustained collaboration.
 
-## Body
+## Decision
 
-### Our Pledge
-
-We pledge to make participation in TorNet a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
-
-### Standards
-
-Examples of behavior that contributes to a positive environment:
-
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-
-Unacceptable behavior includes:
-
-- Harassment, trolling, or insulting comments
-- Public or private harassment
-- Publishing others' private information without permission
-- Any conduct that could be considered harassment
-
-### Enforcement
-
-Reports should be sent to the project maintainer. The maintainer will review and respond. The maintainer may take action including warnings or bans.
+Adopt a code of conduct based on the Contributor Covenant, pledging a harassment-free experience for all participants and establishing clear enforcement procedures.
 
 ## Consequences
 
-- What this enables: safe collaboration.
-- What it constrains: freedom to insult.
-- What it leaves open: interpretation of edge cases.
+- **Easier:** safe collaboration environment with clear behavioral expectations.
+- **Harder:** maintainer must triage and enforce reports.
+- **Given up:** freedom to use insulting or harassing language.
+- **Migration:** none; this is the initial adoption.
 
-## References
+## Alternatives considered
 
-- [Contributor Covenant](https://www.contributor-covenant.org)
+- **Option A: no formal code of conduct.** Rejected because without explicit standards, harmful behavior can go unchecked and drive away contributors.
+- **Option B: custom code of conduct.** Rejected because Contributor Covenant is widely recognized and reduces maintenance burden.
