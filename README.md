@@ -6,6 +6,8 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20EXE%20%7C%20Linux%20%7C%20Android%20APP-blue)
 ![GitHub stars](https://img.shields.io/github/stars/ByteBreach/tornet?style=social)
+[![Docs](https://img.shields.io/badge/docs-read%20here-blue)](docs/README.md)
+[![Website](https://img.shields.io/badge/website-ByteBreach%2Ftornet-blue)](https://github.com/ByteBreach/tornet)
 
 **Automate IP address changes using the Tor network with advanced privacy features**
 
@@ -13,6 +15,10 @@ TorNet is a privacy-focused tool that automates IP address rotation using Tor.
 It is designed to improve anonymity, security, and resistance to tracking across multiple platforms.
 
 </div>
+
+<p align="center">
+  <img src="docs/architecture/overview.svg" alt="TorNet architecture overview" width="760"/>
+</p>
 
 ---
 

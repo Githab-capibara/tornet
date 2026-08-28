@@ -20,5 +20,6 @@ This directory contains **deep dives** into TorNet runtime mechanisms — how ea
 | [12-status-monitoring.md](12-status-monitoring.md) | `--status` panel probes and fields |
 | [13-json-output.md](13-json-output.md) | `--json` machine-readable output contracts |
 | [14-startup-checks.md](14-startup-checks.md) | Gate sequence, exit codes, and privilege model |
+| [15-ip-geolocation.md](15-ip-geolocation.md) | IP geolocation, country-name resolution, and supported-country list |
 
 Use [`template.md`](template.md) as the starting point for a new mechanism document.

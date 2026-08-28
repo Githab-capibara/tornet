@@ -1,6 +1,6 @@
 # 03. Country selection
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [architecture/02-tor-integration.md](../architecture/02-tor-integration.md), [mechanisms/06-country-exitnodes.md](../mechanisms/06-country-exitnodes.md)

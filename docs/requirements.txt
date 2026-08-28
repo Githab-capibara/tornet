@@ -1,4 +1,0 @@
-# Sphinx build requirements for ReadTheDocs.
-# Referenced by readthedocs.yaml -> python.install.requirements.
-myst-parser>=2.0
-sphinx>=7.0

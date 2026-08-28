@@ -1,6 +1,6 @@
 # 05. Dependency checker
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [adr/07-cross-distro-checker.md](../adr/07-cross-distro-checker.md), [mechanisms/04-auto-fix.md](04-auto-fix.md)

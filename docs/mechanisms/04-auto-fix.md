@@ -1,6 +1,6 @@
 # 04. Auto fix
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [adr/04-runtime-auto-fix.md](../adr/04-runtime-auto-fix.md), [mechanisms/05-dependency-checker.md](05-dependency-checker.md)

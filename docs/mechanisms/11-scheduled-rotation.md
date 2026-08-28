@@ -1,6 +1,6 @@
 # 11. Scheduled rotation
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-26
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/01-ip-rotation.md](01-ip-rotation.md), [usage/02-command-reference.md](../usage/02-command-reference.md)

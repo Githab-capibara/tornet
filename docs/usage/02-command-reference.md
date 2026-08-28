@@ -1,6 +1,6 @@
 # 02. Command reference
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/01-getting-started.md](01-getting-started.md), [mechanisms/README.md](../mechanisms/README.md)

@@ -1,6 +1,6 @@
 # 08. DNS leak test
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/05-troubleshooting.md](../usage/05-troubleshooting.md), [architecture/02-tor-integration.md](../architecture/02-tor-integration.md)

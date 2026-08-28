@@ -1,6 +1,6 @@
 # 01. Getting started
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/02-command-reference.md](02-command-reference.md)

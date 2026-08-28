@@ -1,6 +1,6 @@
 # 05. Troubleshooting
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/01-getting-started.md](01-getting-started.md), [mechanisms/14-startup-checks.md](../mechanisms/14-startup-checks.md)

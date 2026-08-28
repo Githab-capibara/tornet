@@ -1,6 +1,6 @@
 # 12. Status monitoring
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-26
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/10-service-detection.md](10-service-detection.md), [mechanisms/06-country-exitnodes.md](06-country-exitnodes.md)

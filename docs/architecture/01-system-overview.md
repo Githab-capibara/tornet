@@ -1,6 +1,6 @@
 # 01. System overview
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/01-ip-rotation.md](../mechanisms/01-ip-rotation.md), [adr/02-newnym-via-control-port.md](../adr/02-newnym-via-control-port.md)

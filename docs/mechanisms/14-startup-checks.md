@@ -1,6 +1,6 @@
 # 14. Startup checks
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-26
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/10-service-detection.md](10-service-detection.md), [mechanisms/04-auto-fix.md](04-auto-fix.md)

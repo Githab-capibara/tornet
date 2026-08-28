@@ -1,6 +1,6 @@
 # 06. Country exit nodes
 
-- **Status:** Published
+- **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/03-country-selection.md](../usage/03-country-selection.md), [architecture/02-tor-integration.md](../architecture/02-tor-integration.md)
