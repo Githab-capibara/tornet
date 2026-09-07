@@ -1,4 +1,4 @@
-# 13. JSON output
+# 13. json output
 
 - **Status:** Accepted
 - **Date:** 2026-08-26

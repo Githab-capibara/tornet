@@ -1,4 +1,4 @@
-# 04. Auto fix
+# 04. auto fix
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

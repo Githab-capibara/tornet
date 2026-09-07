@@ -1,4 +1,4 @@
-# 01. Getting started
+# 01. getting started
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

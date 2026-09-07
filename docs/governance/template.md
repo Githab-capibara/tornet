@@ -1,34 +1,32 @@
-# NN. Title in present-tense imperative
+# NN. Title in sentence case
 
-- **Status:** Proposed | Accepted | Deprecated | Superseded by ADR-NN
+- **Status:** Draft | Accepted
 - **Date:** YYYY-MM-DD
 - **Deciders:** GitHub handles of people who agreed to the decision
-- **Related:** issue/PR/ADR links that this decision depends on or supersedes
+- **Purpose:** What problem this governance document solves
+- **Feeds into:** related ADRs, mechanism docs, or usage guides it references
 
 ## Context
 
-What forces are at play? What makes this decision non-obvious? Two or three
-short paragraphs. Avoid restating background that is already in the linked
-docs — link instead.
+What policy, process, or working principle is this document establishing?
+Why does it matter to contributors, maintainers, or operators? Two or
+three short paragraphs. Link to relevant prior decisions rather than
+restating them.
 
-## Decision
+## Document
 
-What are we doing? Stated affirmatively, in the present tense. Keep this
-section short; the reasoning lives in Context, the trade-offs in
-Consequences.
+The body of the governance document — code of conduct clauses, contribution
+requirements, security disclosure steps, or project principles. Keep
+sections short and scannable; use tables and numbered lists where
+appropriate.
 
-## Consequences
+## Scope
 
-- **Easier:** what this decision unlocks.
-- **Harder:** what this decision constrains.
-- **Given up:** capabilities or flexibility we explicitly walk away from.
-- **Migration:** if applicable, what existing code/config has to change and on
-  what timeline.
+What is in scope for this policy/principle, and what is explicitly out of
+scope? Be concrete so future readers know where the boundary lies.
 
-## Alternatives considered
+## References
 
-- **Option A:** one-line description. Rejected because …
-- **Option B:** one-line description. Rejected because …
-
-(Do not list options you did not actually consider. This document is a record,
-not a literature survey.)
+- Links to related ADRs, mechanism docs, or other governance documents
+- External standards or licenses this document aligns with (e.g.
+  Contributor Covenant, MIT License)

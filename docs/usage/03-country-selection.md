@@ -1,4 +1,4 @@
-# 03. Country selection
+# 03. country selection
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

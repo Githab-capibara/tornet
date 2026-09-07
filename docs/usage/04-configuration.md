@@ -1,4 +1,4 @@
-# 04. Configuration
+# 04. configuration
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

@@ -1,4 +1,4 @@
-# 03. Signal handling
+# 03. signal handling
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

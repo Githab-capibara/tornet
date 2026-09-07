@@ -1,4 +1,4 @@
-# 10. Service detection
+# 10. service detection
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

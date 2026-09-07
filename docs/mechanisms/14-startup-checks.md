@@ -1,4 +1,4 @@
-# 14. Startup checks
+# 14. startup checks
 
 - **Status:** Accepted
 - **Date:** 2026-08-26

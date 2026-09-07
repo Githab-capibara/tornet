@@ -1,4 +1,4 @@
-# 01. IP rotation
+# 01. ip rotation
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

@@ -1,4 +1,4 @@
-# 12. Status monitoring
+# 12. status monitoring
 
 - **Status:** Accepted
 - **Date:** 2026-08-26

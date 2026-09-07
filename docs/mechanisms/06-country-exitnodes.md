@@ -1,4 +1,4 @@
-# 06. Country exit nodes
+# 06. country exit nodes
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

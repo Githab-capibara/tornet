@@ -1,4 +1,4 @@
-# 03. Configuration layout
+# 03. configuration layout
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

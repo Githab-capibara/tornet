@@ -1,4 +1,4 @@
-# 09. Log management
+# 09. log management
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

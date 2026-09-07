@@ -1,4 +1,4 @@
-# 02. Code of conduct
+# 02. code of conduct
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

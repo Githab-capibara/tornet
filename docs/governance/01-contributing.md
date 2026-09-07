@@ -1,4 +1,4 @@
-# 01. Contributing
+# 01. contributing
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

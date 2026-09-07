@@ -1,4 +1,4 @@
-# 02. Tor integration
+# 02. tor integration
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

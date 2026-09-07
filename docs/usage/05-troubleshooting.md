@@ -1,4 +1,4 @@
-# 05. Troubleshooting
+# 05. troubleshooting
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

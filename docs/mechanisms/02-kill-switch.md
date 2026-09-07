@@ -1,4 +1,4 @@
-# 02. Kill switch
+# 02. kill switch
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

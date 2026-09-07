@@ -1,4 +1,4 @@
-# 02. Command reference
+# 02. command reference
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

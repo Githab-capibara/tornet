@@ -1,4 +1,4 @@
-# 03. Security policy
+# 03. security policy
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

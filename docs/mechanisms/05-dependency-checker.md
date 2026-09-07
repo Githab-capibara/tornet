@@ -1,4 +1,4 @@
-# 05. Dependency checker
+# 05. dependency checker
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

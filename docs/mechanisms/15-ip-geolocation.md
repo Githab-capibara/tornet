@@ -1,4 +1,4 @@
-# 15. IP geolocation
+# 15. ip geolocation
 
 - **Status:** Accepted
 - **Date:** 2026-08-27

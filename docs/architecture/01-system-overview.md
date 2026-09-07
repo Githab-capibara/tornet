@@ -1,4 +1,4 @@
-# 01. System overview
+# 01. system overview
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

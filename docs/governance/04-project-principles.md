@@ -1,4 +1,4 @@
-# 04. Project principles
+# 04. project principles
 
 - **Status:** Accepted
 - **Date:** 2026-08-24

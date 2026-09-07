@@ -1,4 +1,4 @@
-# 11. Scheduled rotation
+# 11. scheduled rotation
 
 - **Status:** Accepted
 - **Date:** 2026-08-26

@@ -1,4 +1,4 @@
-# 08. DNS leak test
+# 08. dns leak test
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

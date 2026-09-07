@@ -1,4 +1,4 @@
-# 07. Config management
+# 07. config management
 
 - **Status:** Accepted
 - **Date:** 2026-08-23

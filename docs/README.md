@@ -21,7 +21,7 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 |-----------|---------|
 | [`adr/`](adr/) | Architecture Decision Records, Michael Nygard format |
 | [`architecture/`](architecture/) | System structure, Tor integration, configuration layout |
-| [`governance/`](governance/) | Contributing, code of conduct, security policy |
+| [`governance/`](governance/) | Contributing, code of conduct, security policy, project principles |
 | [`mechanisms/`](mechanisms/) | Runtime mechanisms deep dives |
 | [`usage/`](usage/) | Operator guides: install, commands, troubleshooting |
 
@@ -38,4 +38,5 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 - [Contributing Guide](governance/01-contributing.md)
 - [Code of Conduct](governance/02-code-of-conduct.md)
 - [Security Policy](governance/03-security-policy.md)
+- [Project Principles](governance/04-project-principles.md)
 - [License MIT](../LICENSE)
