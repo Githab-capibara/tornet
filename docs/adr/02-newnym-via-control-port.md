@@ -1,4 +1,4 @@
-# 02. Rotate IPs via the Tor control port instead of restarting the service
+# 02. rotate IPs via the Tor control port instead of restarting the service
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

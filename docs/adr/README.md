@@ -55,12 +55,12 @@ Use [`template.md`](template.md) as the starting point.
 
 | # | Title | Status |
 |---|-------|--------|
-| [01](01-record-architecture-decisions.md) | Record architecture decisions | Accepted |
-| [02](02-newnym-via-control-port.md) | Rotate IPs via the Tor control port instead of restarting the service | Accepted |
-| [03](03-kill-switch-iptables.md) | Implement the kill switch as an iptables chain named TORNET-KILLSWITCH | Accepted |
-| [04](04-runtime-auto-fix.md) | Install missing dependencies at runtime behind an explicit `--auto-fix` flag | Accepted |
-| [05](05-dual-installer.md) | Ship both `setup.py` and `pyproject.toml` as install sources | Accepted |
-| [06](06-signal-cleanup.md) | Stop Tor and tornet processes on SIGINT/SIGQUIT before exiting | Accepted |
-| [07](07-cross-distro-checker.md) | Keep a standalone cross-distribution dependency checker in `utils.py` | Accepted |
+| [01](01-record-architecture-decisions.md) | record architecture decisions | Accepted |
+| [02](02-newnym-via-control-port.md) | rotate IPs via the Tor control port instead of restarting the service | Accepted |
+| [03](03-kill-switch-iptables.md) | implement the kill switch as an iptables chain named TORNET-KILLSWITCH | Accepted |
+| [04](04-runtime-auto-fix.md) | install missing dependencies at runtime behind an explicit `--auto-fix` flag | Accepted |
+| [05](05-dual-installer.md) | ship both `setup.py` and `pyproject.toml` as install sources | Accepted |
+| [06](06-signal-cleanup.md) | stop Tor and tornet processes on SIGINT/SIGQUIT before exiting | Accepted |
+| [07](07-cross-distro-checker.md) | keep a standalone cross-distribution dependency checker in `utils.py` | Accepted |
 
 Keep this index in sync when you land a new ADR.

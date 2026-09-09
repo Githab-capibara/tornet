@@ -1,4 +1,4 @@
-# 04. Install missing dependencies at runtime behind an explicit `--auto-fix` flag
+# 04. install missing dependencies at runtime behind an explicit `--auto-fix` flag
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

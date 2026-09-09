@@ -1,4 +1,4 @@
-# 03. Implement the kill switch as an iptables chain named TORNET-KILLSWITCH
+# 03. implement the kill switch as an iptables chain named TORNET-KILLSWITCH
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

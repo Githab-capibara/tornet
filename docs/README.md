@@ -32,6 +32,8 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 - **Maintainers** → [ADR Index](adr/README.md) → [Dual Installer ADR](adr/05-dual-installer.md)
 - **Security review** → [Mechanisms README](mechanisms/README.md) → [Kill Switch](mechanisms/02-kill-switch.md)
 - **Architecture** → [Architecture README](architecture/README.md) → [System Overview](architecture/01-system-overview.md)
+- **Benchmarks** → [Benchmark Results](architecture/benchmark.svg)
+- **Diagrams** → [Architecture Overview](architecture/overview.svg)
 
 ## Governance
 

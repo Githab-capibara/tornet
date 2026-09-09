@@ -1,4 +1,4 @@
-# NN. Title in present-tense imperative
+# 01. Title in present-tense imperative
 
 - **Status:** Accepted | Proposed
 - **Date:** YYYY-MM-DD

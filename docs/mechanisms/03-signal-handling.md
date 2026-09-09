@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
-- **Related:** [adr/06-signal-cleanup.md](../adr/06-signal-cleanup.md), [mechanisms/10-service-detection.md](10-service-detection.md)
+- **Related:** [adr/06-signal-cleanup.md](../adr/06-signal-cleanup.md), [mechanisms/10-service-detection.md](../mechanisms/10-service-detection.md)
 
 ## Context
 

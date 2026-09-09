@@ -1,4 +1,4 @@
-# 06. Stop Tor and tornet processes on SIGINT/SIGQUIT before exiting
+# 06. stop Tor and tornet processes on SIGINT/SIGQUIT before exiting
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

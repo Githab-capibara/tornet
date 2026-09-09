@@ -1,4 +1,4 @@
-# NN. Title in sentence case
+# 01. Title in sentence case
 
 - **Status:** Draft | Accepted
 - **Date:** YYYY-MM-DD

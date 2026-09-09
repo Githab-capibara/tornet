@@ -1,4 +1,4 @@
-# 05. Ship both `setup.py` and `pyproject.toml` as install sources
+# 05. ship both `setup.py` and `pyproject.toml` as install sources
 
 - **Status:** Accepted
 - **Date:** 2026-08-21

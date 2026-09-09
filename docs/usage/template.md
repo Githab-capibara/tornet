@@ -1,4 +1,4 @@
-# NN. Title in present-tense imperative
+# 01. Title in present-tense imperative
 
 - **Status:** Proposed | Accepted | Deprecated | Superseded by ADR-NN
 - **Date:** YYYY-MM-DD
