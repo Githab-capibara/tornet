@@ -50,17 +50,20 @@ Use [`template.md`](template.md) as the starting point.
 - Append-only. To change a decision, write a new ADR that supersedes the old
   one; do not edit the old one except to flip its `Status` to
   `Superseded by ADR-NN`.
+- ADRs are CODEOWNERS-gated (`docs/adr/**` requires owner review). Proposed
+  ADRs may be opened by any contributor; only an owner-approved PR can land
+  them at `Status: Accepted`.
 
-## Index
+## Directory map
 
-| # | Title | Status |
-|---|-------|--------|
-| [01](01-record-architecture-decisions.md) | record architecture decisions | Accepted |
-| [02](02-newnym-via-control-port.md) | rotate IPs via the Tor control port instead of restarting the service | Accepted |
-| [03](03-kill-switch-iptables.md) | implement the kill switch as an iptables chain named TORNET-KILLSWITCH | Accepted |
-| [04](04-runtime-auto-fix.md) | install missing dependencies at runtime behind an explicit `--auto-fix` flag | Accepted |
-| [05](05-dual-installer.md) | ship both `setup.py` and `pyproject.toml` as install sources | Accepted |
-| [06](06-signal-cleanup.md) | stop Tor and tornet processes on SIGINT/SIGQUIT before exiting | Accepted |
-| [07](07-cross-distro-checker.md) | keep a standalone cross-distribution dependency checker in `utils.py` | Accepted |
+| File | Purpose |
+|------|---------|
+| [01-record-architecture-decisions.md](01-record-architecture-decisions.md) | Record architecture decisions |
+| [02-newnym-via-control-port.md](02-newnym-via-control-port.md) | Rotate IPs via the Tor control port instead of restarting the service |
+| [03-kill-switch-iptables.md](03-kill-switch-iptables.md) | Implement the kill switch as an iptables chain named TORNET-KILLSWITCH |
+| [04-runtime-auto-fix.md](04-runtime-auto-fix.md) | Install missing dependencies at runtime behind an explicit `--auto-fix` flag |
+| [05-dual-installer.md](05-dual-installer.md) | Ship both `setup.py` and `pyproject.toml` as install sources |
+| [06-signal-cleanup.md](06-signal-cleanup.md) | Stop Tor and tornet processes on SIGINT/SIGQUIT before exiting |
+| [07-cross-distro-checker.md](07-cross-distro-checker.md) | Keep a standalone cross-distribution dependency checker in `utils.py` |
 
-Keep this index in sync when you land a new ADR.
+Use [`template.md`](template.md) as the starting point for a new ADR.

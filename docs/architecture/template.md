@@ -1,34 +1,33 @@
 # 01. Title in present-tense imperative
 
-- **Status:** Proposed | Accepted | Deprecated | Superseded by ADR-NN
+- **Status:** Proposed | Accepted | Deprecated
 - **Date:** YYYY-MM-DD
-- **Deciders:** GitHub handles of people who agreed to the decision
-- **Related:** issue/PR/ADR links that this decision depends on or supersedes
+- **Deciders:** GitHub handles of people who reviewed the design
+- **Related:** issue/PR/link that this document depends on or references
 
 ## Context
 
-What forces are at play? What makes this decision non-obvious? Two or three
-short paragraphs. Avoid restating background that is already in the linked
-docs — link instead.
+What architectural question is this document answering? What constraints shape
+the design — platform targets, performance requirements, dependency boundaries,
+operational realities? Two or three short paragraphs. Link to prior decisions
+rather than restating them.
 
-## Decision
+## Design
 
-What are we doing? Stated affirmatively, in the present tense. Keep this
-section short; the reasoning lives in Context, the trade-offs in
-Consequences.
+The body of the architecture document. Map components, describe data flow, and
+explain where state lives. Use tables for component inventories and ASCII
+diagrams for data flow. Keep this section concrete and visual.
 
 ## Consequences
 
-- **Easier:** what this decision unlocks.
-- **Harder:** what this decision constrains.
-- **Given up:** capabilities or flexibility we explicitly walk away from.
+- **Easier:** what this design unlocks for operators or contributors.
+- **Harder:** what this design constrains or complicates.
+- **Given up:** capabilities or flexibility explicitly walked away from.
 - **Migration:** if applicable, what existing code/config has to change and on
   what timeline.
 
-## Alternatives considered
+## References
 
-- **Option A:** one-line description. Rejected because …
-- **Option B:** one-line description. Rejected because …
-
-(Do not list options you did not actually consider. This document is a record,
-not a literature survey.)
+- Links to related ADRs, mechanism docs, or usage guides
+- External specifications, standards, or upstream documentation this design
+  aligns with

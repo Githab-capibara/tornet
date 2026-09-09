@@ -58,4 +58,4 @@ package — then exits so you can re-run the command above.
 ## References
 
 - [Command Reference](02-command-reference.md)
-- [Getting Started](02-command-reference.md)
+- [IP Rotation mechanism](../mechanisms/01-ip-rotation.md)

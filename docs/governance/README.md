@@ -2,10 +2,10 @@
 
 This directory contains **governance** documents for TorNet — policies, contribution guidelines, and project rules.
 
-## Contents
+## Directory map
 
-| Guide | Purpose |
-|-------|---------|
+| File | Purpose |
+|------|---------|
 | [01-contributing.md](01-contributing.md) | How to contribute to TorNet |
 | [02-code-of-conduct.md](02-code-of-conduct.md) | Community behavior standards |
 | [03-security-policy.md](03-security-policy.md) | Security disclosure process |

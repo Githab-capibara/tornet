@@ -22,7 +22,7 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 | [`adr/`](adr/) | Architecture Decision Records, Michael Nygard format |
 | [`architecture/`](architecture/) | System structure, Tor integration, configuration layout |
 | [`governance/`](governance/) | Contributing, code of conduct, security policy, project principles |
-| [`mechanisms/`](mechanisms/) | Runtime mechanisms deep dives |
+| [`mechanisms/`](mechanisms/) | 15 runtime mechanisms deep dives |
 | [`usage/`](usage/) | Operator guides: install, commands, troubleshooting |
 
 ## Key entry points
