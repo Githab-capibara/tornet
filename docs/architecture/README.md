@@ -1,4 +1,5 @@
 # Architecture
+- **Authors:** @Githab-capibara
 
 This directory documents the **structure** of TorNet: what the components are,
 how they fit together, and where state lives on disk. It is the "how the system

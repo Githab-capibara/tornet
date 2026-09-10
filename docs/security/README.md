@@ -1,4 +1,5 @@
 # Security
+- **Authors:** @Githab-capibara
 
 This directory contains **security-oriented documentation** for TorNet — threat models, disclosure policies, audit procedures, and defensive design decisions.
 

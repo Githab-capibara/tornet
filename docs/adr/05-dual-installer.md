@@ -1,9 +1,10 @@
-# 05. ship both `setup.py` and `pyproject.toml` as install sources
+# 05. Ship Both `setup.py` and `pyproject.toml` as Install Sources
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [architecture/03-configuration-layout.md](../architecture/03-configuration-layout.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

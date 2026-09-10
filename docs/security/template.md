@@ -1,4 +1,4 @@
-# NN. Title in present-tense imperative
+# NN. Title in Present-Tense Imperative
 
 - **Status:** Draft | Accepted | Deprecated
 - **Date:** YYYY-MM-DD
@@ -6,6 +6,7 @@
 - **Researcher:** security specialist or designated reviewer
 - **Purpose:** What security concern this document addresses
 - **Feeds into:** related ADRs, mechanism docs, or governance policies it references
+- **Authors:** @Githab-capibara
 
 ## Context
 

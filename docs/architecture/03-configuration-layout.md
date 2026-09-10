@@ -1,9 +1,10 @@
-# 03. configuration layout
+# 03. Configuration Layout
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [adr/05-dual-installer.md](../adr/05-dual-installer.md), [usage/04-configuration.md](../usage/04-configuration.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

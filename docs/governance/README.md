@@ -1,4 +1,5 @@
 # Governance
+- **Authors:** @Githab-capibara
 
 This directory contains **governance** documents for TorNet — policies, contribution guidelines, and project rules.
 

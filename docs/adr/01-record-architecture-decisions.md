@@ -1,9 +1,10 @@
-# 01. record architecture decisions
+# 01. Record Architecture Decisions
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** —
+- **Authors:** @Githab-capibara
 
 ## Context
 

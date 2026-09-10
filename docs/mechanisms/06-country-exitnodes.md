@@ -1,9 +1,10 @@
-# 06. country exit nodes
+# 06. Country Exit Nodes
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/03-country-selection.md](../usage/03-country-selection.md), [architecture/02-tor-integration.md](../architecture/02-tor-integration.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

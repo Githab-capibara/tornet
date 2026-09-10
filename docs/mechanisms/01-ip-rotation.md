@@ -1,9 +1,10 @@
-# 01. ip rotation
+# 01. IP Rotation
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [adr/02-newnym-via-control-port.md](../adr/02-newnym-via-control-port.md), [architecture/01-system-overview.md](../architecture/01-system-overview.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

@@ -1,9 +1,10 @@
-# 07. config management
+# 07. Config Management
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [architecture/03-configuration-layout.md](../architecture/03-configuration-layout.md), [usage/04-configuration.md](../usage/04-configuration.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

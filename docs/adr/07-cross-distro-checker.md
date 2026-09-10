@@ -1,9 +1,10 @@
-# 07. keep a standalone cross-distribution dependency checker in `utils.py`
+# 07. Keep a Standalone Cross-Distribution Dependency Checker in `utils.py`
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/04-auto-fix.md](../mechanisms/04-auto-fix.md), [mechanisms/05-dependency-checker.md](../mechanisms/05-dependency-checker.md), [ADR-04](../adr/04-runtime-auto-fix.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

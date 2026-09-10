@@ -1,9 +1,10 @@
-# 03. security policy
+# 03. Security Policy
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [governance/01-contributing.md](01-contributing.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

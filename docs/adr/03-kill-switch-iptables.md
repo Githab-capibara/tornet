@@ -1,9 +1,10 @@
-# 03. implement the kill switch as an iptables chain named TORNET-KILLSWITCH
+# 03. Implement the Kill Switch as an iptables Chain Named TORNET-KILLSWITCH
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/02-kill-switch.md](../mechanisms/02-kill-switch.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

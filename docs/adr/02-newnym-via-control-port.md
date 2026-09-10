@@ -1,9 +1,10 @@
-# 02. rotate IPs via the Tor control port instead of restarting the service
+# 02. Rotate IPs via the Tor Control Port Instead of Restarting the Service
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/01-ip-rotation.md](../mechanisms/01-ip-rotation.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

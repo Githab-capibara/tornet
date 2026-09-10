@@ -1,9 +1,10 @@
-# 04. install missing dependencies at runtime behind an explicit `--auto-fix` flag
+# 04. Install Missing Dependencies at Runtime Behind an Explicit `--auto-fix` Flag
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/04-auto-fix.md](../mechanisms/04-auto-fix.md), [adr/07-cross-distro-checker.md](07-cross-distro-checker.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

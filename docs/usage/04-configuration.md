@@ -1,9 +1,10 @@
-# 04. configuration
+# 04. Configuration
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [architecture/03-configuration-layout.md](../architecture/03-configuration-layout.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 
@@ -50,8 +51,8 @@ forward-compatible until flag merging lands.
 
 ## Consequences
 
-- Easier: repeatable runs without remembering every flag.
-- Harder: format validation is minimal; malformed YAML/JSON produces warnings,
+- **Easier:** repeatable runs without remembering every flag.
+- **Harder:** format validation is minimal; malformed YAML/JSON produces warnings,
   not errors, so silent misconfiguration is possible.
 
 ## References

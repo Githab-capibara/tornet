@@ -1,9 +1,10 @@
-# 09. log management
+# 09. Log Management
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/02-command-reference.md](../usage/02-command-reference.md), [architecture/03-configuration-layout.md](../architecture/03-configuration-layout.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

@@ -1,9 +1,10 @@
-# 01. getting started
+# 01. Getting Started
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/02-command-reference.md](02-command-reference.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 
@@ -51,9 +52,9 @@ package — then exits so you can re-run the command above.
 
 ## Consequences
 
-- Easier: five-minute onboarding from a clean box.
-- Harder: requires `tor` to be installed (or `--auto-fix` to run first).
-- What it leaves open: GUI onboarding — CLI is the only path today.
+- **Easier:** five-minute onboarding from a clean box.
+- **Harder:** requires `tor` to be installed (or `--auto-fix` to run first).
+- **What it leaves open:** GUI onboarding — CLI is the only path today.
 
 ## References
 

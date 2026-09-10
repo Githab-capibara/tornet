@@ -1,9 +1,10 @@
-# 13. json output
+# 13. JSON Output
 
 - **Status:** Accepted
 - **Date:** 2026-08-26
 - **Deciders:** @ByteBreach
 - **Related:** [usage/02-command-reference.md](../usage/02-command-reference.md), [mechanisms/01-ip-rotation.md](01-ip-rotation.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

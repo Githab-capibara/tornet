@@ -1,4 +1,5 @@
 # Pipeline
+- **Authors:** @Githab-capibara
 
 This directory documents the **engagement and development pipeline** for TorNet — how contributions flow from idea to merged PR, how CI gates quality, and how the project orchestrates multi-agent workflows.
 

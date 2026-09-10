@@ -1,9 +1,10 @@
-# 04. auto fix
+# 04. Auto Fix
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [adr/04-runtime-auto-fix.md](../adr/04-runtime-auto-fix.md), [mechanisms/05-dependency-checker.md](05-dependency-checker.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 
@@ -36,8 +37,13 @@ install manually.
 
 - Package-manager detection is `detect_package_manager()` — first binary found
   among apt/dnf/yum/pacman/apk/zypper; none → exit 4.
-- All installs run through `run_cmd(..., use_sudo=True)`; if not root and no
-  `sudo` binary exists → exit 2.
+- Privilege split is deliberate:
+  - user-level Python steps run **without** `sudo` —
+    `python -m ensurepip --upgrade` and
+    `pip install requests requests[socks]` execute as the current user;
+  - distro/system packages (`python3-pip`, `tor`, …) go through
+    `install_package()` → `run_cmd(..., use_sudo=True)`; if not root and no
+    `sudo` binary exists → exit 2.
 - Regular commands never auto-install. Missing tor → exit 10, missing
   `requests` → exit 11, both messages point at `--auto-fix`. This is the
   deliberate "explicit trigger only" policy from ADR-04.

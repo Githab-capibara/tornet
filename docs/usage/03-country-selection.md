@@ -1,9 +1,10 @@
-# 03. country selection
+# 03. Country Selection
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [architecture/02-tor-integration.md](../architecture/02-tor-integration.md), [mechanisms/06-country-exitnodes.md](../mechanisms/06-country-exitnodes.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 
@@ -55,8 +56,8 @@ full implementation.
 
 ## Consequences
 
-- Easier: geo-specific routing with a single flag.
-- Harder: some countries are unreliable; pinning adds latency on first rotation.
+- **Easier:** geo-specific routing with a single flag.
+- **Harder:** some countries are unreliable; pinning adds latency on first rotation.
 
 ## References
 

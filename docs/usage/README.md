@@ -1,4 +1,5 @@
 # Usage
+- **Authors:** @Githab-capibara
 
 Operator-facing guides for running TorNet. These documents answer "how do I use
 this tool" — from first install to troubleshooting.

@@ -1,4 +1,5 @@
 # Architecture Decision Records
+- **Authors:** @Githab-capibara
 
 This directory contains the **Architecture Decision Records** (ADRs) for
 TorNet — short, numbered, append-only documents that capture non-obvious
@@ -50,20 +51,20 @@ Use [`template.md`](template.md) as the starting point.
 - Append-only. To change a decision, write a new ADR that supersedes the old
   one; do not edit the old one except to flip its `Status` to
   `Superseded by ADR-NN`.
-- ADRs are CODEOWNERS-gated (`docs/adr/**` requires owner review). Proposed
-  ADRs may be opened by any contributor; only an owner-approved PR can land
-  them at `Status: Accepted`.
+- ADRs are reviewed and merged by the maintainer: Proposed ADRs may be opened
+  by any contributor, but only a maintainer-approved PR lands them at
+  `Status: Accepted`.
 
-## Directory map
+## Index
 
-| File | Purpose |
-|------|---------|
-| [01-record-architecture-decisions.md](01-record-architecture-decisions.md) | Record architecture decisions |
-| [02-newnym-via-control-port.md](02-newnym-via-control-port.md) | Rotate IPs via the Tor control port instead of restarting the service |
-| [03-kill-switch-iptables.md](03-kill-switch-iptables.md) | Implement the kill switch as an iptables chain named TORNET-KILLSWITCH |
-| [04-runtime-auto-fix.md](04-runtime-auto-fix.md) | Install missing dependencies at runtime behind an explicit `--auto-fix` flag |
-| [05-dual-installer.md](05-dual-installer.md) | Ship both `setup.py` and `pyproject.toml` as install sources |
-| [06-signal-cleanup.md](06-signal-cleanup.md) | Stop Tor and tornet processes on SIGINT/SIGQUIT before exiting |
-| [07-cross-distro-checker.md](07-cross-distro-checker.md) | Keep a standalone cross-distribution dependency checker in `utils.py` |
+| # | Title | Status |
+|---|-------|--------|
+| [01](01-record-architecture-decisions.md) | Record Architecture Decisions | Accepted |
+| [02](02-newnym-via-control-port.md) | Rotate IPs via the Tor Control Port Instead of Restarting the Service | Accepted |
+| [03](03-kill-switch-iptables.md) | Implement the Kill Switch as an iptables Chain Named TORNET-KILLSWITCH | Accepted |
+| [04](04-runtime-auto-fix.md) | Install Missing Dependencies at Runtime Behind an Explicit `--auto-fix` Flag | Accepted |
+| [05](05-dual-installer.md) | Ship Both `setup.py` and `pyproject.toml` as Install Sources | Accepted |
+| [06](06-signal-cleanup.md) | Stop Tor and Tornet Processes on SIGINT/SIGQUIT Before Exiting | Accepted |
+| [07](07-cross-distro-checker.md) | Keep a Standalone Cross-Distribution Dependency Checker in `utils.py` | Accepted |
 
 Use [`template.md`](template.md) as the starting point for a new ADR.

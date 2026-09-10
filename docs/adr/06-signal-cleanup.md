@@ -1,9 +1,10 @@
-# 06. stop Tor and tornet processes on SIGINT/SIGQUIT before exiting
+# 06. Stop Tor and Tornet Processes on SIGINT/SIGQUIT Before Exiting
 
 - **Status:** Accepted
 - **Date:** 2026-08-21
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/10-service-detection.md](../mechanisms/10-service-detection.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

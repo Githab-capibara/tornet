@@ -1,9 +1,10 @@
-# 01. Title in present-tense imperative
+# NN. Title in Present-Tense Imperative
 
 - **Status:** Proposed | Accepted | Deprecated
 - **Date:** YYYY-MM-DD
 - **Deciders:** GitHub handles of people who reviewed the design
 - **Related:** issue/PR/link that this document depends on or references
+- **Authors:** @Githab-capibara
 
 ## Context
 

@@ -1,9 +1,10 @@
-# 03. signal handling
+# 03. Signal Handling
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [adr/06-signal-cleanup.md](../adr/06-signal-cleanup.md), [mechanisms/10-service-detection.md](../mechanisms/10-service-detection.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

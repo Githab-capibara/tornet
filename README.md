@@ -4,7 +4,7 @@
 ![TorNet Banner](https://img.shields.io/badge/TorNet-2.0.2-blue)
 ![Python](https://img.shields.io/badge/Python-3.6%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Platform](https://img.shields.io/badge/Platform-Windows%20EXE%20%7C%20Linux%20%7C%20Android%20APP-blue)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20(EXE)%20%7C%20Android%20(in%20progress)-blue)
 ![GitHub stars](https://img.shields.io/github/stars/ByteBreach/tornet?style=social)
 [![Docs](https://img.shields.io/badge/docs-read%20here-blue)](docs/README.md)
 [![Website](https://img.shields.io/badge/website-ByteBreach%2Ftornet-blue)](https://github.com/ByteBreach/tornet)
@@ -92,15 +92,18 @@ TorNet is designed to be a **real application**, not just a script.
 
 - **Windows**
   - Distributed as a compiled **EXE**
+  - Build is in progress — see [Getting Started](docs/usage/01-getting-started.md)
   - No Python installation required
   - Uses system or bundled Tor
 
 - **Android**
   - Distributed as an **APK**
+  - Build is in progress — see [Getting Started](docs/usage/01-getting-started.md)
   - Designed for mobile privacy
   - Uses embedded Tor services
 
-> ⚠️ Some features (such as kill switch) may vary due to OS restrictions.
+> ⚠️ The CLI is currently POSIX-oriented; `--kill-switch` (iptables) requires
+> Linux. Windows and Android installers are planned, not yet shipped.
 
 ---
 
@@ -110,7 +113,7 @@ TorNet is designed to be a **real application**, not just a script.
 
 ```bash
 pip install tornet==2.0.2
-````
+```
 
 ---
 
@@ -212,7 +215,7 @@ CH - Switzerland          NO - Norway           DK - Denmark
 FI - Finland              RU - Russia           CN - China
 IN - India                BR - Brazil           MX - Mexico
 ZA - South Africa         SG - Singapore        HK - Hong Kong
-TW - Taiwan               IT - Italy            ES - Spain
+TW - Taiwan
 ```
 
 ### Using Country Selection

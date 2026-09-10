@@ -1,9 +1,10 @@
-# 04. project principles
+# 04. Project Principles
 
 - **Status:** Accepted
 - **Date:** 2026-08-24
 - **Deciders:** @ByteBreach
 - **Related:** [governance/01-contributing.md](01-contributing.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

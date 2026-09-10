@@ -1,9 +1,10 @@
-# 05. troubleshooting
+# 05. Troubleshooting
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [usage/01-getting-started.md](01-getting-started.md), [mechanisms/14-startup-checks.md](../mechanisms/14-startup-checks.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 
@@ -11,7 +12,7 @@ Common errors need fast resolution paths. Every non-zero exit code carries a
 message pointing at the remedy — this document collects them in one place so
 operators do not need to read `main()` to diagnose a failure.
 
-## Exit codes
+## Exit codes — CLI (`tornet`)
 
 | Code | Meaning | Remedy |
 |------|---------|--------|
@@ -19,15 +20,30 @@ operators do not need to read `main()` to diagnose a failure.
 | 2 | No sudo, not root | Run as root or install sudo |
 | 3 | No service manager found | Install `systemd` or `sysvinit-utils` |
 | 4 | No package manager found | Install dependencies manually |
-| 5–7 | pip/install failures | See `--auto-fix` output; install manually |
-| 8 | `python3` not in PATH | Install Python 3.6+ |
+| 5 | pip install failed (`--auto-fix`) | See `--auto-fix` output; install pip manually |
+| 6 | `requests` install failed (`--auto-fix`) | See `--auto-fix` output; install manually |
+| 7 | Tor install failed (`--auto-fix`) | Install Tor manually then retry |
+| 8 | Invalid interval format | Use a number or a range, e.g. `60` or `30-120` |
 | 9 | No internet connectivity | Fix network; check VPN/firewall rules |
 | 10 | `tor` not installed | `sudo apt install tor` or run `tornet --auto-fix` |
 | 11 | `requests` not importable | `pip install requests requests[socks]` |
 | 12 | Bad schedule syntax | Use one of `30s`, `5m`, `2h`, `1d` |
-| 13 | Interrupted (standalone checker) | Normal on Ctrl-C |
+| 13 | iptables not found (kill switch) | Install `iptables` (Linux only) |
 | 14 | Kill switch needs root | `sudo tornet --kill-switch` |
 | 15 | Log file unreadable | Check permissions on `~/.tornet/tornet.log` |
+
+## Exit codes — standalone dependency checker (`python -m tornet.utils`)
+
+| Code | Meaning | Remedy |
+|------|---------|--------|
+| 2 | No sudo, not root | Run as root or install sudo |
+| 3 | Required binary missing | Install the binary named in the message |
+| 4 | `ensurepip` bootstrap failed | Install pip manually |
+| 5 | Unknown package manager | Install dependencies manually |
+| 6 | Cannot install Tor — no manager | Install Tor manually |
+| 7 | Tor still missing after install | Install Tor manually and retry |
+| 8 | `python3` not in PATH | Install Python 3.6+ |
+| 130 | Interrupted (Ctrl-C) | Normal on Ctrl-C |
 
 ## Permission denied (kill switch)
 
@@ -90,8 +106,8 @@ construction failed" messages.
 
 ## Consequences
 
-- Easier: self-service recovery without reading source code.
-- Harder: maintenance of examples across distros.
+- **Easier:** self-service recovery without reading source code.
+- **Harder:** maintenance of examples across distros.
 
 ## References
 

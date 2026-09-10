@@ -1,4 +1,5 @@
 # Documentation Templates
+- **Authors:** @Githab-capibara
 
 This file provides the canonical template for each documentation category in the `docs/` tree. Use the template that matches your document type as the starting point.
 

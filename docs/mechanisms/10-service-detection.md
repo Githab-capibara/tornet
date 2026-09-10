@@ -1,9 +1,10 @@
-# 10. service detection
+# 10. Service Detection
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [architecture/02-tor-integration.md](../architecture/02-tor-integration.md), [adr/06-signal-cleanup.md](../adr/06-signal-cleanup.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

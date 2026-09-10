@@ -1,9 +1,10 @@
-# 01. contributing
+# 01. Contributing
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [governance/02-code-of-conduct.md](02-code-of-conduct.md), [governance/03-security-policy.md](03-security-policy.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

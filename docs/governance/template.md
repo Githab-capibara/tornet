@@ -1,29 +1,38 @@
-# 01. Title in sentence case
+# NN. Title in Title Case
 
 - **Status:** Draft | Accepted
 - **Date:** YYYY-MM-DD
 - **Deciders:** GitHub handles of people who agreed to the decision
-- **Purpose:** What problem this governance document solves
-- **Feeds into:** related ADRs, mechanism docs, or usage guides it references
+- **Related:** links to other governance docs, ADRs, or policies this document
+- **Authors:** @Githab-capibara
+  depends on or supersedes
 
 ## Context
 
 What policy, process, or working principle is this document establishing?
-Why does it matter to contributors, maintainers, or operators? Two or
-three short paragraphs. Link to relevant prior decisions rather than
-restating them.
+Why does it matter to contributors, maintainers, or operators? Two or three
+short paragraphs. Link to prior decisions rather than restating them.
 
-## Document
+## Decision
 
-The body of the governance document — code of conduct clauses, contribution
-requirements, security disclosure steps, or project principles. Keep
-sections short and scannable; use tables and numbered lists where
-appropriate.
+What are we doing? Stated affirmatively, in the present tense. Keep this
+section short; reasoning lives in Context, trade-offs in Consequences.
 
-## Scope
+## Consequences
 
-What is in scope for this policy/principle, and what is explicitly out of
-scope? Be concrete so future readers know where the boundary lies.
+- **Easier:** what this policy unlocks.
+- **Harder:** what it constrains for future contributors.
+- **Given up:** behavior or flexibility we explicitly walk away from.
+- **Migration:** if applicable, what existing processes have to change and on
+  what timeline.
+
+## Alternatives considered
+
+- **Option A:** one-line description. Rejected because …
+- **Option B:** one-line description. Rejected because …
+
+(Do not list options you did not actually consider. This document is a record,
+not a literature survey.)
 
 ## References
 

@@ -1,4 +1,5 @@
 # Mechanisms
+- **Authors:** @Githab-capibara
 
 This directory contains **deep dives** into TorNet runtime mechanisms — how each feature works under the hood.
 

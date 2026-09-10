@@ -1,9 +1,10 @@
-# 02. kill switch
+# 02. Kill Switch
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [adr/03-kill-switch-iptables.md](../adr/03-kill-switch-iptables.md), [architecture/01-system-overview.md](../architecture/01-system-overview.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

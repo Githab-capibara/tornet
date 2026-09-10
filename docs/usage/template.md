@@ -1,34 +1,46 @@
-# 01. Title in present-tense imperative
+# NN. Title in Title Case
 
-- **Status:** Proposed | Accepted | Deprecated | Superseded by ADR-NN
+- **Status:** Accepted | Draft
 - **Date:** YYYY-MM-DD
-- **Deciders:** GitHub handles of people who agreed to the decision
-- **Related:** issue/PR/ADR links that this decision depends on or supersedes
+- **Deciders:** GitHub handles of reviewers
+- **Related:** links to other usage docs, mechanisms, or ADRs
+- **Authors:** @Githab-capibara
 
 ## Context
 
-What forces are at play? What makes this decision non-obvious? Two or three
-short paragraphs. Avoid restating background that is already in the linked
-docs — link instead.
+What operator problem does this guide solve? Who is it for? Two or three short
+paragraphs. Link to background in the mechanisms/ or architecture/ docs
+instead of restating it.
 
-## Decision
+## Prerequisites
 
-What are we doing? Stated affirmatively, in the present tense. Keep this
-section short; the reasoning lives in Context, the trade-offs in
-Consequences.
+- Python 3.6+
+- Anything else the operator must have installed or configured before using
+  this guide (e.g. `tor` in PATH, root for kill switch).
+
+## Usage
+
+The step-by-step "how do I actually do the thing" section. Use code blocks
+with real commands exactly as the CLI defines them, and numbered lists for
+sequential steps.
+
+## How it works
+
+Short explanation of the mechanism behind the commands (one or two
+paragraphs), linking to the relevant mechanism doc for depth — this keeps the
+guide readable while staying accurate.
+
+## Caveats
+
+- Known limitations, platform differences, or behaviors that may surprise the
+  operator. One bullet per caveat.
 
 ## Consequences
 
-- **Easier:** what this decision unlocks.
-- **Harder:** what this decision constrains.
-- **Given up:** capabilities or flexibility we explicitly walk away from.
-- **Migration:** if applicable, what existing code/config has to change and on
-  what timeline.
+- **Easier:** what this guide's workflow unlocks.
+- **Harder:** what it constrains.
+- **What it leaves open:** explicitly out of scope or planned work.
 
-## Alternatives considered
+## References
 
-- **Option A:** one-line description. Rejected because …
-- **Option B:** one-line description. Rejected because …
-
-(Do not list options you did not actually consider. This document is a record,
-not a literature survey.)
+- Links to related usage docs, mechanism docs, and ADRs this guide depends on.

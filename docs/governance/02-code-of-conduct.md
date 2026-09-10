@@ -1,9 +1,10 @@
-# 02. code of conduct
+# 02. Code of Conduct
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
 - **Deciders:** @ByteBreach
 - **Related:** [governance/01-contributing.md](01-contributing.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

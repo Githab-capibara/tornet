@@ -18,7 +18,8 @@ extensions = [
 # index them all without requiring per-directory toc trees.
 exclude_patterns = [
     "_build",
-    "template.md",
+    # templates live in every docs subdirectory and root; exclude them all
+    "**/template.md",
 ]
 
 # Keep GitHub-style relative links working under Sphinx.

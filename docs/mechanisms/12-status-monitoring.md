@@ -1,9 +1,10 @@
-# 12. status monitoring
+# 12. Status Monitoring
 
 - **Status:** Accepted
 - **Date:** 2026-08-26
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/10-service-detection.md](10-service-detection.md), [mechanisms/06-country-exitnodes.md](06-country-exitnodes.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 

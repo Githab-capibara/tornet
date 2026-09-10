@@ -1,9 +1,10 @@
-# 11. scheduled rotation
+# 11. Scheduled Rotation
 
 - **Status:** Accepted
 - **Date:** 2026-08-26
 - **Deciders:** @ByteBreach
 - **Related:** [mechanisms/01-ip-rotation.md](01-ip-rotation.md), [usage/02-command-reference.md](../usage/02-command-reference.md)
+- **Authors:** @Githab-capibara
 
 ## Context
 
