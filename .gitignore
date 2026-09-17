@@ -1,3 +1,6 @@
+# Windows binaries / non-portable artifacts
+*.exe
+
 # Python build artifacts
 __pycache__/
 *.py[cod]
