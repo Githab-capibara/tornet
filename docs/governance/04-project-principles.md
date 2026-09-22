@@ -42,3 +42,9 @@ Maintain a canonical list of project principles covering documentation updates, 
     Email: `rrrarrr37r@gmail.com`
 11. **Writing documentation? Use the required styles:** ADR Michael Nygard format, Design Documents format, README table format, Main README with badges/hero/benchmark/diagrams.
 12. **See documentation not in the required style? Fix it!**
+
+## References
+
+- [Contributing](01-contributing.md)
+- Repository root `AGENTS.md` — the machine-readable contract these principles come from
+- [ADR-01](../adr/01-record-architecture-decisions.md) — how architecture decisions are recorded

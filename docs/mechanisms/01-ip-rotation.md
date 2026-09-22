@@ -16,7 +16,8 @@ is far cheaper than restarting the whole `tor` process.
 
 ## Mechanism
 
-One rotation is `change_ip()`:
+One rotation is `change_ip()`, wrapped for a single `tornet --change` run by
+`change_ip_once(country, json_output)`:
 
 1. If a specific country was requested (not `auto`), call
    `configure_tor_country()` first — pinning requires a torrc restart, see
@@ -51,7 +52,10 @@ A malformed value exits with code 8.
 - `get_ip_via_tor()` queries `https://api.ipify.org` through
   `socks5://127.0.0.1:9050`, 10 s timeout; network trouble returns `None`
   with a warning, never raises into the loop.
-- The direct fetch fallback reports the **real** IP — diagnostic only.
+- `get_ip_direct()` fetches `https://api.ipify.org` without SOCKS when Tor is
+  **not** running; the direct fallback reports the **real** IP — diagnostic only.
+- `print_ip(ip)` logs `Your IP address is: …` on success in non-JSON mode;
+  `--json` replaces it with the `{"timestamp", "ip"}` line.
 
 ## Testing
 

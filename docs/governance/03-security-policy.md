@@ -25,3 +25,9 @@ Use GitHub Security Advisories for responsible disclosure, with a 48-hour acknow
 
 - **Option A: public issues for security bugs.** Rejected because it exposes vulnerabilities before fixes are available.
 - **Option B: email-only disclosure.** Rejected because GitHub Security Advisories provide better tooling and audit trail.
+
+## References
+
+- [Contributing](01-contributing.md)
+- [Responsible Disclosure](../security/02-responsible-disclosure.md)
+- [Threat Model](../security/01-threat-model.md)

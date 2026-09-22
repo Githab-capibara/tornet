@@ -12,7 +12,7 @@ All CLI flags need a single reference. TorNet's `argparse` parser in
 `tornet/tornet.py` (`main()`) defines **18 flags**; this document mirrors them
 exactly, grouped the same way as the root README (basic vs advanced).
 
-## Body
+## Usage
 
 ### Basic commands
 

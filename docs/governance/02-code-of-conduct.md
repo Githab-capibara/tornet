@@ -25,3 +25,9 @@ Adopt a code of conduct based on the Contributor Covenant, pledging a harassment
 
 - **Option A: no formal code of conduct.** Rejected because without explicit standards, harmful behavior can go unchecked and drive away contributors.
 - **Option B: custom code of conduct.** Rejected because Contributor Covenant is widely recognized and reduces maintenance burden.
+
+## References
+
+- [Contributing](01-contributing.md)
+- [Security Policy](03-security-policy.md)
+- [Contributor Covenant](https://www.contributor-covenant.org/) — the upstream standard this document aligns with.

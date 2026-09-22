@@ -80,8 +80,7 @@ tornet/
 │   ├── __init__.py      # public API re-exports
 │   ├── tornet.py        # CLI + all runtime mechanisms
 │   ├── utils.py         # standalone cross-distro dependency checker
-│   ├── banner.py        # ASCII banner
-│   └── tor.exe          # Windows Tor binary shipped in-package
+│   └── banner.py        # ASCII banner
 ├── docs/                # this documentation tree
 ├── README.md            # project homepage (GitHub-native)
 ├── LICENSE              # MIT
@@ -94,8 +93,8 @@ tornet/
 - All persistent state is confined to `~/.tornet/`, so a "reset" is a single
   `rm -rf ~/.tornet` (or `tornet --restore-default` for just the Tor config).
 - The dual installer means version/dependency edits are a two-file change.
-- The in-package `tor.exe` makes the Windows build self-contained but bloats
-  the wheel; it is not used on Linux.
+- The Windows build is planned but not yet shipped; no binary is bundled in the
+  package today (see [Getting Started](../usage/01-getting-started.md)).
 
 ## References
 

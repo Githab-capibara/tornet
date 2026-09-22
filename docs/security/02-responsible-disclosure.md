@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-09-10
 - **Deciders:** @ByteBreach
-- **Researcher:** security specialist or designated reviewer
+- **Researcher:** @Githab-capibara
 - **Purpose:** Define how security vulnerabilities are reported and triaged
 - **Feeds into:** [governance/03-security-policy.md](../governance/03-security-policy.md)
 - **Authors:** @Githab-capibara

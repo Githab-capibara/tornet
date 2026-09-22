@@ -61,7 +61,6 @@ ReadTheDocs runs the same build on push; a failing docs build blocks merge
 
 ```bash
 git commit -m "fix/<slug>: <what changed>"
-# author: Githab-capibara <rrrarrr37r@gmail.com>
 git push -u origin fix/<slug>
 gh pr create --title "…" --body "…"   # references issue + ADRs
 gh pr view --web                       # check the docs build status

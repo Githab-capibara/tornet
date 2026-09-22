@@ -8,7 +8,7 @@
 
 ## Context
 
-TorNet is an open-source project intended to be usable across Android, Windows, Linux and macOS. Cross-platform support, compatibility and stability require ongoing community input. The project needs a clear, permissive contribution process to lower friction for fixes, features and documentation improvements.
+TorNet is an open-source project intended to be usable across Android, Windows and Linux. Cross-platform support, compatibility and stability require ongoing community input. The project needs a clear, permissive contribution process to lower friction for fixes, features and documentation improvements.
 
 ## Decision
 
@@ -19,8 +19,16 @@ Allow anyone to fork, edit, modify, fix bugs, improve performance and security, 
 - **Easier:** anyone can participate immediately; contributions to docs and code are explicitly encouraged.
 - **Harder:** maintainer triage volume increases; quality must be enforced via CI and reviews.
 - **Given up:** gated, permission-based contribution model.
+- **Migration:** none — this replaces the implicit "ask first" expectation; existing contributors simply keep contributing under the MIT license.
 
 ## Alternatives considered
 
 - **Option A: require maintainer approval before forking.** Rejected because it adds friction and conflicts with open-source principles.
 - **Option B: CLA requirement.** Rejected because MIT License contributions are sufficient and CLA adds administrative overhead.
+
+## References
+
+- [Code of Conduct](02-code-of-conduct.md)
+- [Security Policy](03-security-policy.md)
+- [Project Principles](04-project-principles.md)
+- [MIT License](../../LICENSE)

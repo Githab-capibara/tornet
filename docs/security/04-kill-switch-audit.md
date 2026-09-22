@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-09-10
 - **Deciders:** @ByteBreach
-- **Researcher:** security specialist or designated reviewer
+- **Researcher:** @Githab-capibara
 - **Purpose:** Deep dive into the kill switch attack surface and its verification
 - **Feeds into:** [01-threat-model.md](01-threat-model.md), [adr/03-kill-switch-iptables.md](../adr/03-kill-switch-iptables.md)
 - **Authors:** @Githab-capibara
@@ -14,7 +14,7 @@ The kill switch is TorNet's highest-consequence feature: a broken
 `--kill-switch` either (a) fails to block traffic when the operator believes
 they are protected, or (b) blocks all traffic and bricks the operator's
 connectivity. It is implemented in `toggle_kill_switch()` with raw iptables
-rules and requires root — see [mechanics/02](../mechanisms/02-kill-switch.md).
+rules and requires root — see [mechanisms/02](../mechanisms/02-kill-switch.md).
 This audit enumerates the specific ways the switch can fail and the checks the
 code performs.
 

@@ -12,6 +12,13 @@ TorNet supports YAML and JSON config files so operators can repeat runs without
 retyping flags. The default config path is `~/.tornet/config.yml`; use
 `--config <path>` to load an alternate file.
 
+## Prerequisites
+
+- Python 3.6+ and the `tornet` CLI installed (see
+  [Getting Started](01-getting-started.md)).
+- A YAML (`.yml`/`.yaml`) or JSON config file, or none at all — the default
+  path `~/.tornet/config.yml` is loaded when `--config` is not given.
+
 ## Config file format
 
 Both `.yml` / `.yaml` and `.json` are accepted. Keys map directly to CLI flags:
@@ -48,6 +55,24 @@ and an empty config rather than a crash. An unsupported key is silently ignored.
 Today `config` is loaded into `main()` but CLI flags take precedence — config
 keys are wired for future merge, not for current override. Treat keys as
 forward-compatible until flag merging lands.
+
+## How it works
+
+`load_config()` sniffs the file extension, not the content: `.yml`/`.yaml`
+go through `yaml.safe_load()` (which prevents arbitrary object construction
+from untrusted files), `.json` through `json.load()`, anything else warns and
+returns an empty config. A missing or malformed file degrades to a warning
+instead of a traceback — see
+[config management mechanism](../mechanisms/07-config-management.md).
+
+## Caveats
+
+- Unsupported extensions and malformed YAML/JSON produce warnings, not errors,
+  so a silently-ignored misconfiguration is possible.
+- CLI flags currently win over config values; do not rely on config keys to
+  override a flag yet.
+- `save_config()` writes incrementally by extension (YAML with
+  `default_flow_style=False`, JSON with `indent=2`) and warns on failure.
 
 ## Consequences
 

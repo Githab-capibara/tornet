@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-09-10
 - **Deciders:** @ByteBreach
-- **Researcher:** security specialist or designated reviewer
+- **Researcher:** @Githab-capibara
 - **Purpose:** Define assets, adversaries, and trust boundaries for TorNet
 - **Feeds into:** [04-kill-switch-audit.md](04-kill-switch-audit.md), [03-audit-procedure.md](03-audit-procedure.md), [governance/03-security-policy.md](../governance/03-security-policy.md)
 - **Authors:** @Githab-capibara

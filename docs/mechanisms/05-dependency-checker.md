@@ -32,6 +32,8 @@ box up to spec.
    ensures `requests[socks]`.
 5. `ensure_tor(pm)` — `which("tor")`, else `install_system_package(pm, "tor")`,
    verify again, else exit 7.
+6. The generic binary gate is `ensure_binary(bin_name, description)` — aborts
+   with exit code 3 when a required binary is missing from PATH.
 
 ## Implementation details
 

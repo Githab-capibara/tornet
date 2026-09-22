@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-09-10
 - **Deciders:** @ByteBreach
-- **Researcher:** security specialist or designated reviewer
+- **Researcher:** @Githab-capibara
 - **Purpose:** Automated security guardrails: CI checks, SAST, dependency scanning
 - **Feeds into:** [03-audit-procedure.md](03-audit-procedure.md), [pipeline/02](../pipeline/02-ci-gate-and-quality-tiers.md)
 - **Authors:** @Githab-capibara

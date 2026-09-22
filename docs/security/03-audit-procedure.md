@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-09-10
 - **Deciders:** @ByteBreach
-- **Researcher:** security specialist or designated reviewer
+- **Researcher:** @Githab-capibara
 - **Purpose:** Step-by-step security audit checklist for contributors and reviewers
 - **Feeds into:** [04-kill-switch-audit.md](04-kill-switch-audit.md), [05-guard.md](05-guard.md)
 - **Authors:** @Githab-capibara
