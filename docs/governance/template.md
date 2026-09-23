@@ -4,8 +4,8 @@
 - **Date:** YYYY-MM-DD
 - **Deciders:** GitHub handles of people who agreed to the decision
 - **Related:** links to other governance docs, ADRs, or policies this document
-- **Authors:** @Githab-capibara
   depends on or supersedes
+- **Authors:** @Githab-capibara
 
 ## Context
 

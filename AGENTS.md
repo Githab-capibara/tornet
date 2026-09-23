@@ -41,12 +41,12 @@ B. Design Documents
 - **Deciders:** @Githab-capibara
 - **Researcher:** document_specialist agent
 - **Purpose:** ...
-- **Feeds into:** docs/design/03-...
+- **Feeds into:** docs/design/README.md
 C. README в подпапках
 Табличный формат с ссылками:
 | Guide | Purpose |
 |-------|---------|
-| [Getting Started](03-getting-started.md) | First engagement in ~5 minutes |
+| [Getting Started](docs/usage/01-getting-started.md) | First engagement in ~5 minutes |
 D. Основной README проекта
 Badge/shields (лицензия, звёзды, Discord, website)
 Hero image/video

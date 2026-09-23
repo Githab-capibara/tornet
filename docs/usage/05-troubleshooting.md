@@ -12,7 +12,7 @@ Common errors need fast resolution paths. Every non-zero exit code carries a
 message pointing at the remedy — this document collects them in one place so
 operators do not need to read `main()` to diagnose a failure.
 
-## Exit codes — CLI (`tornet`)
+## CLI exit codes (`tornet`)
 
 | Code | Meaning | Remedy |
 |------|---------|--------|
@@ -32,7 +32,7 @@ operators do not need to read `main()` to diagnose a failure.
 | 14 | Kill switch needs root | `sudo tornet --kill-switch` |
 | 15 | Log file unreadable | Check permissions on `~/.tornet/tornet.log` |
 
-## Exit codes — standalone dependency checker (`python -m tornet.utils`)
+## Standalone dependency checker exit codes (`python -m tornet.utils`)
 
 | Code | Meaning | Remedy |
 |------|---------|--------|

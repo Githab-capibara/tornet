@@ -22,6 +22,7 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 |-----------|---------|
 | [`adr/`](adr/) | Architecture Decision Records, Michael Nygard format |
 | [`architecture/`](architecture/) | System structure, Tor integration, configuration layout |
+| [`design/`](design/) | Research notes and pre-decision studies |
 | [`governance/`](governance/) | Contributing, code of conduct, security policy, project principles |
 | [`mechanisms/`](mechanisms/) | 15 runtime mechanisms deep dives |
 | [`pipeline/`](pipeline/) | Engagement workflow, CI gates, agent orchestration |
@@ -32,7 +33,9 @@ All docs are GitHub-native Markdown in this `docs/` tree.
 
 - **Operators** → [Usage README](usage/README.md) → [Getting Started](usage/01-getting-started.md)
 - **Contributors** → [Contributing](governance/01-contributing.md) → [Architecture Overview](architecture/01-system-overview.md)
-- **Maintainers** → [ADR Index](adr/README.md) → [Dual Installer ADR](adr/05-dual-installer.md)
+- **Maintainers** → [ADR Index](adr/README.md) → [Dual Installer ADR](adr/05-dual-installer.md) → [Project Principles](governance/04-project-principles.md)
+- **Governance** → [Governance README](governance/README.md) → [Contributing](governance/01-contributing.md)
+- **Templates** → [Documentation Templates](template.md) — canonical copy-from templates for every category
 - **Security review** → [Security README](security/README.md) → [Threat Model](security/01-threat-model.md) → [Kill Switch](mechanisms/02-kill-switch.md)
 - **Contribution process** → [Pipeline README](pipeline/README.md) → [Engagement Workflow](pipeline/01-engagement-workflow.md)
 - **Architecture** → [Architecture README](architecture/README.md) → [System Overview](architecture/01-system-overview.md)

@@ -441,8 +441,12 @@ MIT License - see LICENSE file.
 | [Country Selection](docs/usage/03-country-selection.md) | Exit-country pinning |
 | [Configuration](docs/usage/04-configuration.md) | YAML/JSON config format |
 | [Troubleshooting](docs/usage/05-troubleshooting.md) | Exit codes and common fixes |
-| [Architecture Overview](docs/architecture/01-system-overview.md) | System structure |
+| [Architecture](docs/architecture/01-system-overview.md) | System structure and data flow |
 | [Mechanisms Index](docs/mechanisms/README.md) | 15 runtime deep dives |
+| [Security](docs/security/README.md) | Threat model, disclosure, audit procedures |
+| [Pipeline](docs/pipeline/README.md) | Engagement workflow, CI gates, agent orchestration |
+| [Governance](docs/governance/README.md) | Contributing, code of conduct, project principles |
+| [Design](docs/design/README.md) | Research notes and pre-decision studies |
 | [ADR Index](docs/adr/README.md) | Architecture decisions |
 
 **Benchmarks**

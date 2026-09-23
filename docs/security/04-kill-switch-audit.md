@@ -35,7 +35,7 @@ code performs.
 - The switch verifies root via the same privilege check used across the CLI
   (exit 14 pathway documented in [mechanisms/14](../mechanisms/14-startup-checks.md)).
 - Missing `iptables` binary is detected before rule mutation (exit 13 —
-  see [usage/05-troubleshooting.md](../usage/05-troubleshooting.md#exit-codes--cli-tornet)).
+  see [usage/05-troubleshooting.md](../usage/05-troubleshooting.md)).
 - The iptables rule set is scoped to Tor's ports/socks traffic and
   restore-default is available to reverse the policy
   (see [mechanisms/02](../mechanisms/02-kill-switch.md)).

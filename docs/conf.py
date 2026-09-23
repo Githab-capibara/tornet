@@ -14,6 +14,9 @@ extensions = [
     "myst_parser",
 ]
 
+# The landing page is docs/README.md, not the Sphinx default "index".
+master_doc = "README"
+
 # Markdown sources live in subdirectories (adr/, architecture/, ...);
 # index them all without requiring per-directory toc trees.
 exclude_patterns = [

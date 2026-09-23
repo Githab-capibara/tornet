@@ -11,6 +11,10 @@ Copy from [`adr/template.md`](adr/template.md).
 
 Copy from [`architecture/template.md`](architecture/template.md).
 
+## Design Document
+
+Copy from [`design/template.md`](design/template.md).
+
 ## Mechanism Deep Dive
 
 Copy from [`mechanisms/template.md`](mechanisms/template.md).

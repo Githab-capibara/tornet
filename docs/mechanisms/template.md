@@ -1,4 +1,4 @@
-# NN. Title in Present-Tense Imperative
+# NN. Title in Title Case
 
 - **Status:** Accepted | Proposed
 - **Date:** YYYY-MM-DD
